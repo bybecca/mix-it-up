@@ -1,0 +1,851 @@
+@charset "UTF-8";
+/*CSS Document*/ 
+    
+/*----STRUCTURE-----*/
+
+.wrapper {
+    width: 960px; 
+    margin: 0 auto; 
+}
+
+*:before, *:after {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     box-sizing: border-box;
+}
+.clearFloat {
+    clear: both; 
+}
+
+body { 
+    font-size: 62.5%;
+}
+    
+/*fonts*/
+    
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('../fonts/pacifico-regular-webfont.woff2') format('woff2'),
+         url('../fonts/pacifico-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*typography styles*/
+h1, h2, h3, h4 {
+    font-family: 'montserratbold';
+    font-weight: bold; 
+    font-style: normal; 
+}
+h1 {
+    font-size: 3.9em; 
+}
+h2 {
+    font-size: 3.0em; 
+}
+h3{
+    font-size: 2.6em; 
+}
+h4{
+    font-size: 1.6em;
+    text-align: left;
+}
+
+h5 {
+    font-family: 'pacificoregular';
+    font-weight: normal;
+    font-style: italic;
+    font-size: 4.0em;
+}
+p{
+    font-family: 'montserratregular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.2em; 
+}
+
+.test p {
+   font-size: 1.6em; 
+}
+/*home pg*/
+
+/*nav*/
+#mainHeader {
+    margin-top: 25px; 
+    height: 75px; 
+    overflow: auto; 
+}
+.logo {
+    float: left; 
+    width: 200px; 
+}
+
+ .logo a:link {
+    text-decoration: none; 
+    list-style: none; 
+    border-bottom: none; 
+}
+.mainNav {
+    float: right; 
+    width: 370px; 
+    margin-top: 20px; 
+}
+.mainNav a:link {
+    text-decoration: none; 
+    list-style: none;
+    color: 	gray;
+}
+
+ul {
+    list-style: none; 
+    font-family: 'montserratregular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mainNav li {
+    display: inline-block; 
+    font-size: 1.6em;
+    margin-right: 20px; 
+}
+
+.getBox a:link {
+    border: 1px solid #acacac;
+    border-radius: 23px; 
+    padding: 15px; 
+    width: 200px; 
+    text-align: center; 
+    margin-right: 0; 
+    color: gray;
+}
+
+.getBox a:hover {
+   background-color: #000; 
+   color: #fff !important; 
+}
+
+a:link, a:visited {
+    color: gray;
+}
+
+a:hover, a:active {
+    color: #000; 
+}
+
+/*Header Img Section*/
+
+.headerImgMain{
+    width: 100%;
+}
+
+.headerImg_sect {
+    background-image: url(../gfx/main_header.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: 533px; 
+}
+
+.believe {
+    clear: both; 
+    padding-top: 202px; 
+    width: 475px; 
+}
+
+/*Habits List*/
+
+#improve_habits {
+    width: 850px; 
+    height: 311px; 
+    margin: 0 auto; 
+    margin-top: 52px; 
+}
+
+.habits {
+    height: 275px; 
+    width: 239px;
+    float: left; 
+    margin-top: 30px; 
+}
+
+.habits_list {
+    width: 432px; 
+    float: left; 
+    margin-left: 150px; 
+}
+
+.habits_list li {
+    font-family: 'montserratregular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.2em; 
+    margin-left: -30px; 
+    line-height: 2.6;
+    
+}
+
+.button_One {
+    border: 1px solid #acacac;
+    border-radius: 23px; 
+    padding: 15px; 
+    width: 200px; 
+    text-align: center;  
+    color: #000;
+    font-size: 2.2em; 
+}
+
+.button_One:hover {
+    background-color: #000; 
+    color: #fff; 
+}
+
+/*provide*/
+
+#provide {
+    background-image: url(../gfx/pickplan_provide.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: 700px; 
+}
+
+.weProvide {
+    width: 888px; 
+    margin: 0 auto; 
+    margin-top: 52px; 
+    padding: 43px; 
+    text-align: center; 
+}
+
+.box {
+    width: 240px; 
+    height: 415px; 
+    float: left; 
+    background-color: #fff; 
+    margin-top: 29px; 
+    margin-right: 36px; 
+    padding: 17px 17px 18px 16px;
+}
+
+.box2 {
+    width: 240px; 
+    height: 415px; 
+    float: left;
+    background-color: #fff; 
+    margin-top: 29px; 
+    margin-right: 0; 
+    padding: 17px 17px 18px 16px;
+}
+
+.provideImg {
+    width: 239px; 
+    height: 239px; 
+    margin-bottom: 37px; 
+}
+
+.imgHeadings, .more {
+    height: 30px; 
+    margin-left: 12px; 
+    padding-bottom: 20px; 
+}
+
+.more {
+    font-family: 'montserratregular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.6em; 
+    float: left;
+    text-decoration: none; 
+}
+
+/*Past Plans*/
+
+.pastPlansSect {
+    width: 958px; 
+    height: 397px;
+    margin-bottom: 52px; 
+}
+.pastPlans {
+    float: left; 
+}
+
+.align {
+    margin-top: 30px; 
+    float: right; 
+}
+
+.valentines, .christmas {
+    width: 469px; 
+    height: 293px; 
+}
+
+.valentinesSect {
+    width: 469px; 
+    height: 293px;
+    margin-right: 20px; 
+    clear: both; 
+    float: left; 
+}
+
+.christmasSec {
+    width: 469px; 
+    float: left; 
+}
+
+.overlay {
+    position: relative; 
+    z-index: 1;
+    background-color: #fff; 
+    margin: -100px 0 62px 20px; 
+    height: 75px; 
+    float: left;
+    padding-right: 10px;
+}
+
+.adjust {
+    margin-top: -50px; 
+}
+
+/*Subscribtion Plans*/
+
+#pickPlan {
+    clear: both; 
+    background-image: url(../gfx/pickplan_home.jpg); 
+    background-size: cover; 
+    width: 100%; 
+    height: 650px; 
+}
+
+.planInfo {
+    width: 906px; 
+    margin: 52px auto; 
+    padding-top: 44px; 
+}
+
+.subscribeHeader {
+    text-align: center; 
+}
+
+.planCopy {
+    width: 570px; 
+    text-align: center; 
+    margin: 29px auto; 
+}
+
+.orderBox {
+    width: 410px; 
+    height: 457px; 
+    background-color: #fff; 
+    border: 5px solid #BCD9EB; 
+    text-align: center; 
+    float: left; 
+}
+
+.boxTwo {
+    margin-left: 56px; 
+}
+hr {
+    width: 73px; 
+    border: 2px solid #BCD9EB; 
+}
+
+.centerText {
+    text-align: center; 
+}
+/*Black line associated with the owl carousel that I can not get rid of?... Help please :)*/
+/*Reviews*/
+
+#reviews {
+    width: 725px; 
+    height: 500px;
+    overflow: none; 
+    margin: 0 auto; 
+    height: 150px; 
+    margin-top: 100px; 
+    clear: both; 
+    display: block;
+}
+
+.sophie {
+    width: 120px; 
+    height: 155px; 
+    border: 5px solid #BCD9EB;
+    border-radius: 50% 50%; 
+    float: left;
+}
+
+.review { 
+    width: 480px;
+    float: left; 
+    margin-left: 45px; 
+}
+
+
+/*----OWL CAROUSEL CUSTOMIZED-----*/
+
+.owl-carousel {
+	position: relative;
+	height: 80px;
+}
+.owl-slide {
+	width: 100%;
+	max-height: 100%;
+	height: 300px;
+}
+.col-left {
+	float: left;
+	width: 22%; 
+    height: 22%; 
+}
+.col-right {
+	float: left;
+	width: 40%;
+}
+.owl-prev {
+	position: absolute;
+	background-image: url(../gfx/prev_arrow.png);
+	background-size: 25px 50px;
+	top: 50%;
+	left: -100px;
+	margin-top: 20px;
+	width: 25px;
+	height: 50px;
+}
+.owl-next {
+	position: absolute;
+	background-image: url(../gfx/next_arrow.png);
+	background-size: 25px 50px;
+	right: -100px;
+	top: 50%;
+	margin-top: 20px;
+	width: 25px;
+	height: 50px;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%; 
+    height: 185px; 
+    overflow: auto; 
+    background-color: #BCD9EB;
+    margin-top: 52px; 
+}
+
+.col1, .col2, .col3 {
+    font-size: 2.2em;
+    line-height: 2.0;
+    margin-right: 20px; 
+    float: left; 
+}
+
+.col1 li {
+    font-family: 'montserratregular';
+    font-weight: normal;
+    font-style: normal; 
+}
+
+.col1, .col2 {
+    width: 164px;
+}
+
+.col3 {
+    width: 200px; 
+}
+
+.col1 a, .col2 a, .col3 a {
+    text-decoration: none; 
+    color: #000; 
+}
+
+.socialMedia {
+    float: right; 
+    margin-top: 30px;
+}
+#facebook, #insta, #youtube {
+    width: 28px; 
+    height: 27px; 
+    float: left; 
+}
+
+#facebook, #insta {
+    margin-right: 19px; 
+}
+
+/*About Pg*/
+
+.headerImg_about {
+    background-image: url(../gfx/mix_package.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: 900px; 
+}
+
+.imgHeading_center {
+    margin: 0 auto; 
+    height: 30px; 
+    padding-top: 300px;
+    padding-bottom: 15px; 
+    width: 250px; 
+}
+.aboutText {
+    width: 375px;
+    margin: 0 auto; 
+    height: 101;  
+    margin-bottom: 20px; 
+}
+
+.aboutDifferent {
+    width: 450px; 
+}
+.whatYouGet {
+    width: 550px; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding-top: 30px; 
+}
+.boxItems {
+    width: 100%; 
+    height: 700px;
+}
+
+.scroll-left {
+background-color: #BCD9EB; 
+height: 75px; 
+padding-top: 25px; 
+overflow: hidden;
+position: relative;
+}
+.scroll-left p {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+text-align: center;
+/*https://codepen.io/Murtaxa/pen/egrRbN    */
+/* Starting position */
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%); 
+transform:translateX(100%);
+/* Apply animation to this element */ 
+-moz-animation: scroll-left 20s linear infinite;
+-webkit-animation: scroll-left 20s linear infinite;
+animation: scroll-left 20s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+0% { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+0% { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+0% { 
+-moz-transform: translateX(100%); /* Browser bug fix */
+-webkit-transform: translateX(100%); /* Browser bug fix */
+transform: translateX(100%); 
+}
+100% { 
+-moz-transform: translateX(-100%); /* Browser bug fix */
+-webkit-transform: translateX(-100%); /* Browser bug fix */
+transform: translateX(-100%); 
+}
+}
+
+/*encourage*/
+
+#encourage {
+    width: 960px;
+    margin: 0 auto; 
+    padding-top: 52px;
+}
+
+.encourageText { 
+    text-align: center; 
+}
+
+.create, .stress, .sense {
+    width: 960px;
+    margin: 0 auto; 
+    margin-top: 50px; 
+}
+
+.sense, stress {
+    padding-top: 300px; 
+}
+.leftColText {
+    width: 360px; 
+    float: left; 
+    margin-top: 30px; 
+}
+
+.rightColImg {
+    width: 340px; 
+    height: 340px; 
+    float: left;
+    margin-left: 200px; 
+}
+.creativeImg {
+    width: 329px; 
+    height: 329px; 
+}
+
+.leftColImg {
+    width: 360px; 
+    float: left; 
+}
+
+.rightColText {
+    width: 340px; 
+    height: 340px; 
+    float: left; 
+    margin-left: 200px; 
+    margin-top: 30px;
+}
+
+.sensesImg {
+    width: 360px; 
+    height: 329px; 
+}
+
+.stressImg {
+    width: 288px; 
+    height: 222px; 
+}
+
+/*FAQ section*/
+
+#FAQ {
+    clear: both; 
+}
+
+.faqText {
+    padding-bottom: 30px; 
+}
+.questions {
+    padding-bottom: 30px; 
+}
+
+.clickMe a {
+    list-style: none; 
+    text-decoration: none;
+    color: #000; 
+}
+
+.seperate { 
+    border: 1px solid #acacac;
+    width: 100%; 
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+    margin-top: -35px; 
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+/*answers*/
+
+.answers {
+    background-color: #BCD9EB; 
+    padding: 5px 0 5px 15px; 
+}
+
+/*Product Page*/
+
+#productHeader {
+    background-color: #BCD9EB;
+    height: 180px; 
+    padding-top: 10px; 
+    margin-bottom: 52px; 
+}
+
+#productItem {
+    height: 331px; 
+    margin-bottom: 52px; 
+}
+
+.rightColumn, .leftColumn {
+    width: 349px; 
+    height: 331px;
+    float: left; 
+}
+
+.rightColumn {
+    margin-left: 200px;
+}
+.justifyText {
+    text-align: center;
+}
+
+.alignBtn {
+    margin-left: 70px;  
+}
+
+#rollingPin, #cookieCutters, #aprons, #whisks {
+    width: 349px; 
+    height: 331px;
+}
+
+.information {
+    margin-top: 20px; 
+}
+
+/*Order*/
+
+#planPhoto {
+    background-image: url(../gfx/headerImg_two.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: 900px; 
+}
+
+.planHeader {
+    width: 400px; 
+    padding-top: 400px;
+    margin: 0 auto; 
+}
+
+#selectPlan {
+    height: 375px;
+    margin-top: 52px; 
+}
+
+.selectOption {
+    width: 400px; 
+    float: left;
+}
+.pickBox {
+    width: 400px; 
+    height: 116px; 
+    border: 5px solid #BCD9EB; 
+    margin-bottom: 20px; 
+}
+
+input[type="radio"] {
+    position: absolute; 
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    margin: -8px 0 0 20px; 
+    padding: 2px; 
+    border: 5px solid #BCD9EB;  
+}
+
+.option {
+    width: 20px; 
+    height: 20px; 
+    float: left; 
+}
+.pickContent {
+    margin-top: -30px;
+    margin-left: 50px;
+    width: 350px; 
+    float: left; 
+}
+
+.mixPhoto, .mixPetite {
+    width: 349px; 
+    height: 331px; 
+    float: left;
+    margin-top: 25px;
+    margin-left: 120px; 
+}
+
+.mixPetite {
+    display: none; 
+}
+#planOption {
+    height: 600px; 
+    margin-bottom: 52px; 
+}
+#pickPlanTwo {
+    background-image: url(../gfx/pickplan_order.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: 525px; 
+}
+
+/*forms*/
+form {
+    margin-bottom: 25px;
+}
+#stepThree {
+    width: 960px; 
+    margin: 0 auto; 
+}
+.inputBoxOne, .inputBoxTwo {
+    width: 48%; 
+    float: left; 
+}
+.inputBoxTwo {
+    margin-left: 20px;
+}
+#name {
+    width: 100%;
+    height: 30px;
+    margin-top: -100px;
+}
+label {
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    width: 500px; 
+    height: 30px;
+    padding-top: 30px;
+    font-family: 'montserratregular';
+    font-weight: normal;
+    font-style: normal;
+}
+input[type="text"], select {
+    border-radius: 4px;
+    font-size: 1.6em;
+    line-height: 1.7;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px; 
+}
+
+.inputBoxThree {
+    margin-top: 20px; 
+}
+
+.address, .city {
+    width: 100%; 
+}
+
+select {
+    width: 100%; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.slightMove, .countryChoice {
+    margin-top: 25px; 
+}
+
+.inputBoxOne, .inputBox2, .slightMove {
+    margin-bottom: 25px;
+}
